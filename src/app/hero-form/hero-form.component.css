@@ -1,0 +1,13 @@
+.heroForm{
+    margin: auto;
+    max-width: 500px;
+    padding: 0 5vw 0 5vw;
+}
+
+.ng-valid[required], .ng-valid.required  {
+    border-left: 5px solid #42A948; /* green */
+  }
+  
+  .ng-invalid:not(form)  {
+    border-left: 5px solid #a94442; /* red */
+  }

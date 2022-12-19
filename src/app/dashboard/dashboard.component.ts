@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Hero } from '../hero';
+import { IHero } from '../Ihero';
 import { HeroService } from '../hero.service';
 
 @Component({
@@ -8,7 +8,7 @@ import { HeroService } from '../hero.service';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent {
-  heroes: Hero[] = [];
+  heroes: IHero[] = [];
 
   constructor(private heroeService: HeroService){}
 
